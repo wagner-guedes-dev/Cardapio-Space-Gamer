@@ -1,0 +1,102 @@
+﻿.popup-custom {
+    width: 100%;
+    position: sticky;
+    bottom: -1px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1055;
+    display: none;
+    animation: mostrarPopup 0.3s ease-in forwards;
+}
+
+.content-popup {
+    box-shadow: 0px -2px 23px -8px rgba(0,0,0,0.39);
+    width: 90%;
+    border-radius: 20px 20px 0 0;
+    padding: 15px 10px 15px 10px;
+    background-color: whitesmoke;
+}
+
+    .content-popup p {
+        margin: 0;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+.popup-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+    .popup-title img {
+        vertical-align: auto;
+        height: 55px;
+        margin-right: 10px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 23px -8px rgba(0,0,0,0.2);
+    }
+
+    .popup-title p {
+        margin: 0;
+        color: #333;
+        font-weight: bold;
+    }
+
+.popup-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .popup-buttons button {
+        width: 49%;
+        outline: none;
+        border: none;
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+    }
+
+#btn-agora-nao {
+    background: whitesmoke;
+    color: red;
+    font-weight: bold;
+    border: 2px solid red;
+}
+
+#btn-adicionar {
+    background: red;
+    color: white;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+@keyframes mostrarPopup {
+    from {
+        opacity: 0;
+        bottom: -100px;
+    }
+
+    to {
+        opacity: 1;
+        bottom: -1px;
+    }
+}
+
+@keyframes fecharPopup {
+    0% {
+        opacity: 1;
+        bottom: -1px;
+    }
+
+    99% {
+        opacity: 0;
+        bottom: -100px;
+    }
+
+    100% {
+        position: absolute;
+        z-index: -9;
+    }
+}
