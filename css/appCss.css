@@ -2120,7 +2120,7 @@ h3 > .breadcrumb.pull-right,
   color: #ffffff !important;
 }
 .bg-danger-dark {
-  background-color: #ec2121;
+  background-color:   #883BAB;
   color: #ffffff !important;
 }
 .bg-danger small {
@@ -2596,7 +2596,7 @@ footer {
 }
 
 mark, .mark {
-    background-color: #ff0000;
+    background-color: #883BAB;
     color: #ffffff;
     padding: 0;
 }
@@ -2673,7 +2673,7 @@ hr {
 
 .moldura-video {
     padding: 15px;
-    background: #ec2121;
+    background:   #883BAB;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -2695,7 +2695,7 @@ hr {
 .faixa-depoimento blockquote {
     padding: 11px 20px;
     margin: 20px 3% 30px;
-    border-left: 5px solid #ec2121;
+    border-left: 5px solid   #883BAB;
     line-height: 31px;
     font-style: italic;
     color: #333;
@@ -2854,7 +2854,7 @@ hr {
 }
 
 .modal-content {
-    border-top: 3px solid #ec2121;
+    border-top: 3px solid   #883BAB;
     border-radius: 0;
     position: relative;
     /*padding-bottom: 3em; -- Removido pois provavelmente foi colocado para resolver um problema mas criou vários */
@@ -2913,7 +2913,7 @@ hr {
     .cardapio-header .icon {
         width: 110px;
         height: 110px;
-        background-color: #fff;
+
         margin: 35px auto;
         display: flex;
         align-items: center;
@@ -3103,7 +3103,7 @@ hr {
     }
 
     #cardapio .products .product-container .promoDescription {
-        color: #ec2121;
+        color:   #883BAB;
         font-size: 14px;
         font-weight: bold;
         display: inline-block;
@@ -3458,7 +3458,7 @@ body.modal-open {
 }
 
     .link-topo:hover, .link-topo:active, .link-topo:visited, .link-topo:focus {
-        color: #ec2121;
+        color:   #883BAB;
     }
 
 .topnavbar .navbar-header .brand-logo-collapsed {
@@ -3871,14 +3871,14 @@ body.modal-open {
 
     #promotions.panel h3 {
         font-size: 22px;
-        /*color: #ec2121;*/
+        /*color:   #883BAB;*/
         font-weight: bold;
         margin: 15px 15px 0 15px;
         border: none;
     }
 
     #promotions.panel-promotions > .panel-heading {
-        /*background-color: #ec2121;*/
+        /*background-color:   #883BAB;*/
         /*color: #fff;*/
     }
 
@@ -4214,7 +4214,7 @@ fieldset {
     font-size: 100%;
     /*background-color: #f05050;*/
     background-color: #fff;
-    color: #ff0000;
+    color: #883BAB;
 }
 
 .label-aberto[href]:hover, .label-aberto[href]:focus {

@@ -23,9 +23,9 @@ body,
 
     .topnavbar .navbar-header {
         background-color: transparent;
-        background-image: -webkit-linear-gradient(left, #ec2121 0%, #f05050 100%);
-        background-image: -o-linear-gradient(left, #ec2121 0%, #f05050 100%);
-        background-image: linear-gradient(to right, #ec2121 0%, #f05050 100%);
+        background-image: -webkit-linear-gradient(left, #883BAB 0%, #f05050 100%);
+        background-image: -o-linear-gradient(left, #883BAB 0%, #f05050 100%);
+        background-image: linear-gradient(to right, #883BAB 0%, #f05050 100%);
         background-repeat: repeat-x;
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec2121', endColorstr='#fff05050', GradientType=1);
     }
@@ -37,12 +37,12 @@ body,
 }
 
 .topnavbar .navbar-nav > li > .navbar-text {
-    color: #ec2121;
+    color: #883BAB;
 }
 
 .topnavbar .navbar-nav > li > a,
 .topnavbar .navbar-nav > .open > a {
-    color: #ec2121;
+    color: #883BAB;
 }
 
     .topnavbar .navbar-nav > li > a:hover,
@@ -66,20 +66,20 @@ body,
 }
 
 .topnavbar .nav-wrapper {
-    background-color: #ec2121;
-    background-image: -webkit-linear-gradient(left, #ec2121 0%, #f05050 100%);
-    background-image: -o-linear-gradient(left, #ec2121 0%, #f05050 100%);
-    background-image: linear-gradient(to right, #ec2121 0%, #f05050 100%);
+    background-color: #883BAB;
+    background-image: -webkit-linear-gradient(left, #883BAB 0%, #f05050 100%);
+    background-image: -o-linear-gradient(left, #883BAB 0%, #f05050 100%);
+    background-image: linear-gradient(to right, #883BAB 0%, #f05050 100%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec2121', endColorstr='#fff05050', GradientType=1);
 }
 
 @media only screen and (min-width: 768px) {
     .topnavbar {
-        background-color: #ec2121;
-        background-image: -webkit-linear-gradient(left, #ec2121 0%, #f05050 100%);
-        background-image: -o-linear-gradient(left, #ec2121 0%, #f05050 100%);
-        background-image: linear-gradient(to right, #ec2121 0%, #f05050 100%);
+        background-color: #883BAB;
+        background-image: -webkit-linear-gradient(left, #883BAB 0%, #f05050 100%);
+        background-image: -o-linear-gradient(left, #883BAB 0%, #f05050 100%);
+        background-image: linear-gradient(to right, #883BAB 0%, #f05050 100%);
         background-repeat: repeat-x;
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec2121', endColorstr='#fff05050', GradientType=1);
     }
@@ -196,26 +196,26 @@ body,
    CUSTOMIZA��O
  ========================================================================== */
 #cardapio .cardapio-body h3 {
-    border-bottom-color: #ec2121;
+    border-bottom-color: #883BAB;
 }
 
 .modal-content {
-    border-top-color: #ec2121;
+    border-top-color: #883BAB;
 }
 
 .c-checkbox input[type=checkbox]:checked + span, .c-radio input[type=checkbox]:checked + span, .c-checkbox input[type=radio]:checked + span, .c-radio input[type=radio]:checked + span {
-    border-color: #ec2121;
-    background-color: #ec2121;
+    border-color: #883BAB;
+    background-color: #883BAB;
 }
 
 .panel-danger > .panel-heading {
-    background-color: #ec2121;
+    background-color: #883BAB;
 }
 
 /* Nova cor btn-success*/
 .btn-success {
     color: #fff;
-    background-color: #ec2121; /*#27c24c*/
+    background-color: #883BAB; /*#27c24c*/
     border-color: transparent;
 }
 
@@ -251,65 +251,65 @@ body,
     fieldset[disabled] .btn-success:hover,
     fieldset[disabled] .btn-success:focus,
     fieldset[disabled] .btn-success.focus {
-        background-color: #ec2121; /*#27c24c*/
+        background-color: #883BAB; /*#27c24c*/
         border-color: transparent;
         opacity: 0.65;
     }
 
 mark, .mark {
-    background-color: #ec2121;
+    background-color: #883BAB;
 }
 
 .text-primary {
-    color: #ec2121;
+    color: #883BAB;
 }
 
 /* ========================================================================
    Grid Restaurante
  ========================================================================== */
 .restaurant-grid-cardapio:hover {
-    border-color: #ec2121;
+    border-color: #883BAB;
     text-decoration: none;
-    box-shadow: 0px 1px 4px #ec2121;
+    box-shadow: 0px 1px 4px #883BAB;
 }
 
 /* ========================================================================
    SmarBanner
  ========================================================================== */
 .smartbanner-menudino .smartbanner-button-text {
-    background-color: #ec2121;
+    background-color: #883BAB;
 }
 
 .nav.nav-categorias li.active > a {
-    color: #ec2121;
+    color: #883BAB;
 }
 
 .nav.nav-categorias .active {
-    border-bottom: 5px solid #ec2121;
+    border-bottom: 5px solid #883BAB;
 }
 
 .categories .panel-danger > .panel-heading {
     background-color: #fff;
-    color: #ec2121;
-    border-top: 2px solid #ec2121;
+    color: #883BAB;
+    border-top: 2px solid #883BAB;
 }
 
 #promotions.panel-promotions > .panel-heading {
-    background-color: #ec2121;
+    background-color: #883BAB;
     color: #fff;
-    border-top: 2px solid #ec2121;
+    border-top: 2px solid #883BAB;
 }
 
 #promotions.panel h3 {
-    color: #ec2121;
+    color: #883BAB;
 }
 
 .map-confirm-location #mapLocation .map-location-pin {
-    background: #ec2121;
+    background: #883BAB;
 }
 
 :root {
-    --main-bg-color: #ec2121;
+    --main-bg-color: #883BAB;
     --main-bg-color-light: #f05050;
-    --main-bg-color-dark: #ec21219e;
+    --main-bg-color-dark: #883BAB9e;
 }
